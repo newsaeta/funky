@@ -1,3 +1,42 @@
 .nav-unixtic {
     order:1
 }
+.section-uno{
+    width: 400px;
+    height: 300px;
+    /*border: 1px solid #000;*/
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    /*flex-direction: column;*/
+    /* row-reverse y column-reverse se invierte el orden*/
+    /* flex-wrap: wrap;  envia abajo si no cabe en su padre*/
+
+}
+.section-dos{
+    width: 400px;
+    height: 300px;
+    /*border: 1px solid #000;*/
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.caja1{
+    background: blue;
+    order:2;
+}
+
+.caja2{
+    background: green;
+    order: 0;
+}
+
+.caja3{
+    background: pink;
+    order: 1
+}
+.caja4{
+    background: red;
+    order: 1
+}
