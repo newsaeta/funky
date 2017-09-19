@@ -82,7 +82,7 @@ h1 {
     width: 100%;
     padding-right: 16px;
  }
- .row-img-center {
+ .row-img-center{
     width: 100%;
     padding-right: 8px;
     padding-left: 8px;
@@ -94,6 +94,26 @@ h1 {
  .row-figure {
     width: 33.33%;
  }
+
+ .row-title-center {
+    padding-left: 8px;
+ }
+
+ .row-title-right {
+    padding-left: 16px;
+ }
+ .footer {
+    width: 100%;
+    margin-top: 5rem; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 0.5;
+ }
+ 
+ .footer-right {
+    text-align: right;
+}
 @media (max-width: 575px){
     .logo-img {
         width: 100vw;
