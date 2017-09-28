@@ -117,7 +117,9 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-top: 5rem;
-
+ }
+ .img-modal{
+    cursor: zoom-in;
  }
  .row-img-left {
     width: 100%;
